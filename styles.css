@@ -1,0 +1,113 @@
+/* Base Layout */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    text-align: left;
+    padding: 2px 0;
+    margin-bottom: 40px;
+    background: #f8f9fa;
+}
+nav ul{
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+ 
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+section {
+    margin: 50px 0;
+    padding: 30px;
+    border-radius: 10px;
+    background: #f8f9fa;
+}
+
+/* Section Containers */
+#colors, #fonts {
+    border: 1px black solid;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Headings */
+h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+/* Panel Layouts */
+.color-panel, .font-container {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+}
+
+.color-panel {
+    min-height: 100px;
+    text-align: center;
+    border-radius: 8px;
+    transition: all 0.3 ease;
+}
+.color-panel:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px black;
+}
+
+
+/* Color Styles */
+.cool-blue {
+    background-color: #2d5dcc;
+    color: white;
+}
+.pink {
+    background-color: #d957d9;
+    color: black;
+}
+.mint-green {
+    background-color: #4fe0b0;
+    color: black;
+}
+.beige {
+    background-color: #f3b68d;
+    color: black;
+}
+
+/* Typography */
+.font-label {
+    text-decoration: underline;
+    font-size: 1.25rem;
+}
+
+/* Font Families */
+.source {
+    font-family: "Source Code Pro", monospace;
+}
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+.nunito {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* Text Styles */
+.regular {
+    font-weight: normal;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
